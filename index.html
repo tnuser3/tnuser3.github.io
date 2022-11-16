@@ -23,10 +23,21 @@ body {
 <style>
 body {
 }
+  .button {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+    border-radius: 12px;
+}
 
+.button:hover {
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 12px;
+}
 h1 {
   color: rgb(0,0,0);
-  margin-left: 40px;
+  margin-left: 25px;
   font-family:monospace;
 }
 
@@ -36,14 +47,12 @@ h1 {
 <h1>test</h1>
 <a href="https://www.Moddinghub.net/" target="_blank">Link Test</a>
   
-   <input  class="button black" id="ShowButton" type="button" runat="server"  value="Dark Mode" onclick="myFunction()" />
+   <input  class="button" id="ShowButton" type="button" runat="server"  value="Change Mode" onclick="myFunction()" />
 
 <script>
 function myFunction() {
    var element = document.body;
    element.classList.toggle("dark-mode");
-  
-  document.querySelector('#ShowButton').value = 'Light Mode';
 }
 </script>
 </body>
