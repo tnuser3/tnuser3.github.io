@@ -13,7 +13,6 @@ body {
 .dark-mode {
   background-color: black;
   color: white;
-  document.querySelector('#ShowButton').value = 'Light Mode';
 }
 </style>
 </head>
@@ -43,6 +42,8 @@ h1 {
 function myFunction() {
    var element = document.body;
    element.classList.toggle("dark-mode");
+  
+  document.querySelector('#ShowButton').value = 'Light Mode';
 }
 </script>
 </body>
