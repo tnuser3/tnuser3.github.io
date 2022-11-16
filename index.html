@@ -5,51 +5,31 @@
 
 <style>
 body {
-  background-color: rgb(0,0,0);
+  background-color: rgb(255,255,255);
 }
 
 h1 {
-  color: rgb(255,255,255);
+  color: rgb(0,0,0);
   margin-left: 40px;
   font-family:monospace;
 }
-  .button {
-  background-color: #4CAF50; /* Green */
-  border: none;
-  color: white;
-  padding: 16px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  transition-duration: 0.4s;
-  cursor: pointer;
-}
-.button:hover {
-  background-color: #4CAF50;
-  color: white;
-}
-a:link, a:visited {
-  background-color: #f44336;
-  color: white;
-  padding: 14px 25px;
-  font-family:monospace;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-}
-.button{
-  font-family:monospace;
-  }
-a:hover, a:active {
-  background-color: red;
-}
+
 </style>
 </head>
 <body>
 <h1>test</h1>
 <a href="https://www.Moddinghub.net/" target="_blank">Link Test</a>
-<button onclick="window.location.href='https://Moddinghub.net';" class="button button1">LINK TEST 2</button>
+  
+   <input  class="button black" id="ShowButton" type="button" runat="server"  value="Dark Mode" onclick="myFunction()" />
+
+<script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+ document.querySelector('#ShowButton').innerHTML = 'Hide';
+document.querySelector('#ShowButton').innerText = 'Hide';
+document.querySelector('#ShowButton').textContent = 'Hide';
+}
+</script>
 </body>
 </html>
