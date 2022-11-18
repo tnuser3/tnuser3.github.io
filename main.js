@@ -1,5 +1,5 @@
 
-.better-Dmode {
+.betterD-mode {
   background-color: #1f2224;
   color: white;
 }
@@ -11,3 +11,4 @@
   background-color: #3a9dd6;
   color: white;
 }
+
