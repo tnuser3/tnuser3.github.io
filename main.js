@@ -1,14 +1,8 @@
-
-.betterD-mode {
-  background-color: #1f2224;
-  color: white;
+function BlueMode() {
+  var element = document.body;
+  element.classList.toggle("Blue-mode");
 }
-.light-mode {
-  background-color: white;
-  color: black;
+function DarkMode() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
 }
-.blue-mode {
-  background-color: #3a9dd6;
-  color: white;
-}
-

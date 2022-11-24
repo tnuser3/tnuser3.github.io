@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-  <script src="main.js"></script>
+
 <style>
 body {
   padding: 25px;
@@ -15,14 +15,10 @@ body {
   background-color: black;
   color: white;
 }
-</style>
-</head>
-<html>
-</head>
-<body>
-
-<style>
-  
+.Blue-mode {
+  background-color: rgb(0, 2, 138.72);
+  color: rgb(255, 255, 255);
+}
   .container {
   display: block;
   position: relative;
@@ -34,7 +30,7 @@ body {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-}
+ }
 
 /* Hide the browser's default radio button */
 .container input {
@@ -86,8 +82,7 @@ body {
 	background: white;
 }
   
-body {
-}
+
  .button {
   background-color: white; 
   color: black; 
@@ -95,7 +90,7 @@ body {
     border-radius: 8px;
     transition-duration: 0.4s;
     margin-left: 500px;
-}
+ }
 
 .button:hover {
   background-color: #8a8479;
@@ -113,31 +108,24 @@ h1 {
 <body>
   
 <label class="container">Dark Mode
-  <input type="radio" name="radio" onclick="myFunction()">
+  <input type="radio" name="radio" onclick="DarkMode()">
   <span class="checkmark"></span>
 </label>
 
 <label class="container">Light Mode
-  <input type="radio" name="radio" checked="checked" onclick="myFunction()">
+  <input type="radio" name="radio" checked="checked" onclick="">
   <span class="checkmark"></span>
 </label>
 
 <label class="container">Blue Mode
-  <input type="radio" name="radio" onclick="myFunction()">
+  <input type="radio" name="radio" onclick="BlueMode()">
   <span class="checkmark"></span>
 </label>
-  
-  
-<h1>test</h1>
-<a href="https://www.Moddinghub.net/" target="_blank">Link Test</a>
-  
-   <input  class="button" id="ShowButton" type="button" runat="server"  value="Change Mode" onclick="myFunction()" />
 
-<script>
-function myFunction() {
-   var element = document.body;
-   element.classList.toggle("dark-mode");
-}
-</script>
+<h1>test</h1>
+<a href="https://www.Moddinghub.net/" target="_blank">Link Test</a>  
+<input  class="button" id="ShowButton" type="button" runat="server"  value="Change Mode" onclick="myFunction()" />
+
+<script src="main.js"></script>
 </body>
 </html>
