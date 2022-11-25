@@ -8,3 +8,8 @@ function DarkMode() {
    var col=document.getElementById("H1");
 col.style.color="#FF0000";
 }
+function Menustart() {
+  var doc = document;
+  var img = doc.getElementById("Image")
+  img.style.visibility = visible;
+}
