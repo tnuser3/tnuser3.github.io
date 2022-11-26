@@ -13,3 +13,6 @@ function Menustart() {
   var img = doc.getElementById("Image")
   img.style.visibility = visible;
 }
+function Comingsoon(){
+  alert('COMING SOON')
+}

@@ -3,122 +3,18 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" type="text/css" href="Mystyle.css">
-<style>
-.dark-mode {
-  background-color: black;
-  color: white;
-
-}
-.Blue-mode {
-  background-color: rgb(0, 2, 138.72);
-  color: rgb(255, 255, 255);
-}
-  .container {
-  display: block;
-  position: relative;
-  padding-left: 35px;
-  margin-bottom: 12px;
-  cursor: pointer;
-  font-size: 22px;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
- }
-
-/* Hide the browser's default radio button */
-.container input {
-  position: absolute;
-  opacity: 0;
-  cursor: pointer;
-}
-
-/* Create a custom radio button */
-.checkmark {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 25px;
-  width: 25px;
-  background-color: #eee;
-  border-radius: 50%;
-}
-
-/* On mouse-over, add a grey background color */
-.container:hover input ~ .checkmark {
-  background-color: #ccc;
-}
-
-/* When the radio button is checked, add a blue background */
-.container input:checked ~ .checkmark {
-  background-color: #2196F3;
-}
-
-/* Create the indicator (the dot/circle - hidden when not checked) */
-.checkmark:after {
-  content: "";
-  position: absolute;
-  display: none;
-}
-
-/* Show the indicator (dot/circle) when checked */
-.container input:checked ~ .checkmark:after {
-  display: block;
-}
-
-/* Style the indicator (dot/circle) */
-.container .checkmark:after {
- 	top: 9px;
-	left: 9px;
-	width: 8px;
-	height: 8px;
-	border-radius: 50%;
-	background: white;
-}
-  
-
- .button {
-  background-color: white; 
-  color: black; 
-  border: 2px solid #8a8479;
-    border-radius: 8px;
-    transition-duration: 0.4s;
-    margin-left: 500px;
- }
-
-.button:hover {
-  background-color: #8a8479;
-  color: white;
-  border-radius: 8px;
-}
-h1 {
-  color: rgb(0,0,0);
-  margin-left: 25px;
-  font-family:monospace;
-}
-
-</style>
 </head>
 <body>
-  <input type="image" id="Image" src="https://cdn-icons-png.flaticon.com/512/56/56763.png" onclick="Menustart()" alt="Menu"/>
-  <label class="container">Dark Mode
-  <input type="radio" name="radio" onclick="DarkMode()">
-  <span class="checkmark"></span>
-</label>
+<div id="ccnet">
 
-<label class="container">Light Mode
-  <input type="radio" name="radio" checked="checked" onclick="">
-  <span class="checkmark"></span>
-</label>
+<h1>Kmans Website</h1>
+<div id="Links">
+  <a id="P3" href="" onclick="Comingsoon()" target="_blank">|Project 300|</a>  
+  <a id="MHN" href="https://www.Moddinghub.net" onclick="" target="_blank">|Moddinghub.net|</a> 
+  <a id="discord" href="https://discord.gg/syCVck39" onclick="" target="_blank">|My Discord Server|</a>
+</div>
+</div>
 
-<label class="container">Blue Mode
-  <input type="radio" name="radio" onclick="BlueMode()">
-  <span class="checkmark"></span>
-</label>
-
-<h1 id="rcorners2">Kmans Website</h1>
-<a href="https://www.Moddinghub.net/" target="_blank">Link Test</a>  
-<input  class="button" id="ShowButton" type="button" runat="server"  value="Change Mode" onclick="DarkMode()" />
 <script src="main.js"></script>
 </body>
 </html>
