@@ -1,8 +1,25 @@
+
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+   }
+  }
 body{
   background-color: rgb(40, 40, 40);
+  animation: fadeInAnimation ease 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
-h1{
+#H{
   color: rgb(173, 173, 173);
+  font-size: 32pt;
+  font-weight: bold;
+}
+#H:hover {
+color:rgb(173, 173, 173);
 }
 #ccnet {
   position: fixed;
@@ -12,11 +29,12 @@ h1{
   text-align: center;
   font-family: "Courier New", monospace;
 }
+
 a:link, a:visited {
   background-color: transparent;
   color: rgb(173, 173, 173);
-  padding: 10px 20px;transition-duration: 0.5s;
-
+  padding: 10px 20px;
+  transition-duration: 0.5s;
   text-align: center;
   text-decoration: none;
   display: inline-block;

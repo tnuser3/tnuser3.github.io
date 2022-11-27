@@ -16,3 +16,7 @@ function Menustart() {
 function Comingsoon(){
   alert('COMING SOON')
 }
+function Openmain(){
+var doc=document.getElementById("Links")
+doc.style.visibility=hidden;
+}
