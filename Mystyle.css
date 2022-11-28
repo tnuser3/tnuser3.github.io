@@ -13,6 +13,9 @@ body{
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
+#Back{
+  visibility: hidden;
+}
 #OpenC{
   background-color: transparent;
   border-color: transparent;
@@ -24,7 +27,6 @@ body{
   text-decoration: none;
   display: block;
   font-family: "Courier New", monospace;
-  visibility: hidden;
 }
 #OpenC:hover{
   color: rgb(0, 255, 47);

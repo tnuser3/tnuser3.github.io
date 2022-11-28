@@ -16,8 +16,18 @@ function Menustart() {
 function Comingsoon(){
   alert('COMING SOON')
 }
+function Closemain(){
+  var doc=document;
+  doc.getElementById("H").style.visibility="visible";
+  doc.getElementById("Links").style.visibility="visible";
+  doc.getElementById("P3").style.visibility="visible";
+  doc.getElementById("MHN").style.visibility= "visible";
+  doc.getElementById("discord").style.visibility="visible";
+  doc.getElementById("Back").style.visibility="hidden";
+}
 function Openmain(){
 var doc=document;
+doc.getElementById("Back").style.visibility="visible";
 doc.getElementById("H").style.visibility="hidden";
 doc.getElementById("Links").style.visibility="hidden";
 doc.getElementById("P3").style.visibility="hidden";
