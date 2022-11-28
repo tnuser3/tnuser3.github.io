@@ -13,7 +13,7 @@ body{
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
-#OpenMain{
+#OpenC{
   background-color: transparent;
   border-color: transparent;
   font-size: 11.8pt;
@@ -25,7 +25,7 @@ body{
   display: block;
   font-family: "Courier New", monospace;
 }
-#OpenMain:hover{
+#OpenC:hover{
   color: rgb(0, 255, 47);
 }
 #H{
