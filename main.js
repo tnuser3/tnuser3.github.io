@@ -18,9 +18,9 @@ function Comingsoon(){
 }
 function Openmain(){
 var doc=document;
-doc.getElementById("H").style.visibility=hidden;
-doc.getElementById("Links").style.visibility=hidden;
-doc.getElementById("P3").style.visibility=hidden;
-doc.getElementById("MHN").style.visibility=hidden;
-doc.getElementById("discord").style.visibility=hidden;
+doc.getElementById("H").style.visibility="hidden";
+doc.getElementById("Links").style.visibility="hidden";
+doc.getElementById("P3").style.visibility="hidden";
+doc.getElementById("MHN").style.visibility= "hidden";
+doc.getElementById("discord").style.visibility="hidden";
 }
