@@ -25,6 +25,8 @@ function Closemain(){
   doc.getElementById("discord").style.visibility="visible";
   doc.getElementById("Back").style.visibility="hidden";
   doc.getElementById("line").style.visibility="hidden"
+  doc.getElementById("Tracker-Main").style.visibility="hidden";
+  doc.getElementsByClassName(h1).style.visibility="hidden";
 }
 function Openmain(){
 var doc=document;
@@ -34,5 +36,7 @@ doc.getElementById("Links").style.visibility="hidden";
 doc.getElementById("P3").style.visibility="hidden";
 doc.getElementById("MHN").style.visibility= "hidden";
 doc.getElementById("discord").style.visibility="hidden";
-doc.getElementById("line").style.visibility="visible"
+doc.getElementById("line").style.visibility="visible";
+doc.getElementById("Tracker-Main").style.visibility="visible";
+doc.getElementsByClassName(h1).style.visibility="visible";
 }
