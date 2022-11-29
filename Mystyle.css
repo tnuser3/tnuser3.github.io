@@ -46,6 +46,11 @@ body{
 #H:hover {
 color:rgb(173, 173, 173);
 }
+#Control{
+  animation: fadeInAnimation ease 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
 #ccnet {
   position: fixed;
   top: 50%;
