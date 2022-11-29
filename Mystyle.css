@@ -15,8 +15,18 @@ body{
 }
 #Back{
   visibility: hidden;
+  margin-top: 0.3%;
 }
-#OpenC{
+#line{
+  visibility: hidden;
+  height: 1%;
+  width: 100%;
+  margin: auto;
+  margin-top: 0.5%;
+  margin-bottom: 2%;
+  border-color: rgb(82, 82, 82);
+}
+#Open{
   background-color: transparent;
   border-color: transparent;
   font-size: 11.8pt;
@@ -27,9 +37,6 @@ body{
   text-decoration: none;
   display: block;
   font-family: "Courier New", monospace;
-}
-#OpenC:hover{
-  color: rgb(0, 255, 47);
 }
 #H{
   color: rgb(173, 173, 173);
@@ -57,7 +64,9 @@ a:link, a:visited {
   text-decoration: none;
   display: inline-block;
 }
-
+#Open:hover{
+  color: rgb(255, 0, 0);
+}
 a:hover, a:active {
   color: rgb(0, 255, 47);
 }

@@ -24,6 +24,7 @@ function Closemain(){
   doc.getElementById("MHN").style.visibility= "visible";
   doc.getElementById("discord").style.visibility="visible";
   doc.getElementById("Back").style.visibility="hidden";
+  doc.getElementById("line").style.visibility="hidden"
 }
 function Openmain(){
 var doc=document;
@@ -33,4 +34,5 @@ doc.getElementById("Links").style.visibility="hidden";
 doc.getElementById("P3").style.visibility="hidden";
 doc.getElementById("MHN").style.visibility= "hidden";
 doc.getElementById("discord").style.visibility="hidden";
+doc.getElementById("line").style.visibility="visible"
 }
