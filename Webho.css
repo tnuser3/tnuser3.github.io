@@ -13,3 +13,16 @@ body{
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
+#Back{
+  visibility: hidden;
+  margin-top: 0.3%;
+}
+#line{
+  visibility: hidden;
+  height: 1%;
+  width: 100%;
+  margin: auto;
+  margin-top: 0.5%;
+  margin-bottom: 2%;
+  border-color: rgb(82, 82, 82);
+}
