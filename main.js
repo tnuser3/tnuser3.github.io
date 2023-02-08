@@ -48,3 +48,20 @@ doc.getElementById("Tracker-Main").style.visibility="visible";
         console.log("mobile check:off");
       }
     }
+    function sendMessage() {
+	    var URI;
+      var Uhh;
+      Uhh= document.getElementById("alltext1").value;
+      const request = new XMLHttpRequest();
+      request.open("POST", URI);
+
+      request.setRequestHeader('Content-type', 'application/json');
+
+      const params = {
+        username: "UserName",
+        avatar_url: "",
+        content: Uhh
+      }
+
+      request.send(JSON.stringify(params));
+    }
