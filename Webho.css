@@ -24,3 +24,12 @@ body{
   margin-bottom: 2%;
   border-color: rgb(82, 82, 82);
 }
+a:link, a:visited {
+  background-color: transparent;
+  color: rgb(173, 173, 173);
+  padding: 10px 20px;
+  transition-duration: 0.5s;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
