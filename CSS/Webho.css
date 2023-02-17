@@ -16,14 +16,6 @@ body{
 #Back{
   margin-top: 0.3%;
 }
-#Webhook-Main {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  font-family: "Courier New", monospace;
-} 
 #line{
   height: 1%;
   width: 100%;
@@ -46,7 +38,7 @@ a:link, a:visited {
         border: 2px solid white;
         border-radius: 4px;
         font-size: 16px;
-        resize: none;
+        
         color: white;
         overflow: hidden;
         background-color: rgb(40,40,40); 
