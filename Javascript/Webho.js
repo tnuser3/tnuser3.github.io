@@ -6,7 +6,7 @@
       var IconURI
       URI= document.getElementById("URIArea").value;
       Text = document.getElementById("TextArea").value;
-      UserName document.getElementById("UsernameArea").value;
+      UserName= document.getElementById("UsernameArea").value;
       IconURI = document.getElementById("IconUrl").value;
       const request = new XMLHttpRequest();
       request.open("POST", URI);
@@ -15,7 +15,7 @@
 
       const params = {
         username: UserName,
-        avatar_url: "",
+        avatar_url: IconURI,
         content: Text
       }
 
