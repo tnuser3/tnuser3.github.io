@@ -13,61 +13,7 @@ body{
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
-#Back{
-  visibility: hidden;
-  margin-top: 0.3%;
-}
-#line{
-  visibility: hidden;
-  height: 1%;
-  width: 100%;
-  margin: auto;
-  margin-top: 0.5%;
-  margin-bottom: 2%;
-  border-color: rgb(82, 82, 82);
-}
-#Open{
-  background-color: transparent;
-  border-color: transparent;
-  font-size: 11.8pt;
-  color: rgb(173, 173, 173);
-  padding: 10px 20px;
-  transition-duration: 0.5s;
-  text-align: center;
-  text-decoration: none;
-  display: block;
-  font-family: "Courier New", monospace;
-}
-#H{
-  color: rgb(173, 173, 173);
-  font-size: 32pt;
-  font-weight: bold;
-}
-#H:hover {
-color:rgb(173, 173, 173);
-}
-#Control{
-  animation: fadeInAnimation ease 2s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
-}
-#ccnet {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  font-family: "Courier New", monospace;
-} 
-#Tracker-Main{
-  visibility: hidden;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  font-family: "Courier New", monospace;
-}
+
 a:link, a:visited {
   background-color: transparent;
   color: rgb(173, 173, 173);
