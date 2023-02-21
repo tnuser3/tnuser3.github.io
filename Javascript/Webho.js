@@ -3,7 +3,7 @@
 	    var URI;
       var Text;
       var UserName;
-      var IconURI
+      var IconURI;
       URI= document.getElementById("URIArea").value;
       Text = document.getElementById("TextArea").value;
       UserName= document.getElementById("UsernameArea").value;
