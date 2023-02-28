@@ -1,4 +1,7 @@
-
+@font-face {
+  font-family: CustomFont;
+  src: url(https://tnuser3.github.io/Fonts/October-Crow.ttf);
+}
 @keyframes fadeInAnimation {
   0% {
       opacity: 0;
@@ -17,6 +20,7 @@ body{
   color: rgb(173, 173, 173);
   font-size: 32pt;
   font-weight: bold;
+  font-family: CustomFont;
 }
 #H:hover {
 color:rgb(173, 173, 173);
