@@ -1,18 +1,14 @@
 var doc = document;
 window.onload = function() {
-    CheckEndDate();
+    Start();
    };
-function CheckEndDate() {
-
-    var now = new Date().toString();  // current date
-    var end_date = new Date("February 28").toString();
-
-    if (now === end_date) {
-        doc.getElementById("H").style.fontFamily="CustomFont";
-        alert('HAPPY HALLOWEEN 🎃');
-        return;
-    }
-    else{
-        console.log("Not HAlloween ):")
-    }
+function Start(){
+    const d = new Date();
+    var Year = d.getFullYear();
+    var Oct = new Date(Year.toString()+"-03-01");
+        if(d.getDay() + 1 == Oct.toString){
+            console.log("Happy Halloween 🎃")
+        }else{
+            console.log("not halloween ):")
+        }
 }
