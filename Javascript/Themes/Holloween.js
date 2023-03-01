@@ -6,11 +6,10 @@ window.onload = function() {
 function Start(){
 
     const d = new Date();
-        if(d.getMonth() == 11){
+        if(d.getMonth() == 2){
             console.log("Happy Halloween 🎃");
-            document.getElementById("snowflakes").style.visibility = "Visible";
+            document.getElementById("H").style.fontFamily="CustomFont";
         }else{
             console.log("not Halloween ):");
-            document.getElementById("snowflakes").style.visibility = "hidden";
         }
 }
