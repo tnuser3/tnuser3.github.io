@@ -2,7 +2,15 @@
 function Comingsoon(){
   alert('COMING SOON')
 }
-
+var intervalId = window.setInterval(function(){
+  interval();
+}, 500);
+function interval(){
+  const d = new Date();
+  var day = d.getDay().toString(); 
+  var month = d.getMonth() + 1;
+  console.log(d.getMilliseconds().toString()+" "+ d.getSeconds().toString() +" "+ d.getMinutes().toString() +" "+ day +" "+month.toString()+" "+d.getFullYear().toString())
+}
 	  window.onload = function() {
  	  OnStart();
 	  };

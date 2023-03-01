@@ -1,7 +1,4 @@
-@font-face {
-  font-family: CustomFont;
-  src: url(https://tnuser3.github.io/Fonts/October.ttf);
-}
+
 @keyframes fadeInAnimation {
   0% {
       opacity: 0;
