@@ -1,14 +1,16 @@
+
 var doc = document;
 window.onload = function() {
     Start();
    };
 function Start(){
+
     const d = new Date();
-    var Year = d.getFullYear();
-    var Oct = new Date(Year.toString()+"-03-01");
-        if(d.getDay() + 1 == Oct.toString){
-            console.log("Happy Halloween 🎃")
+        if(d.getMonth() == 11){
+            console.log("Happy Halloween 🎃");
+            document.getElementById("snowflakes").style.visibility = "Visible";
         }else{
-            console.log("not halloween ):")
+            console.log("not Halloween ):");
+            document.getElementById("snowflakes").style.visibility = "hidden";
         }
 }
