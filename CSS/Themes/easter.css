@@ -1,16 +1,5 @@
-@keyframes egg-right-animation {
-    0% {
-      transform: rotate(0deg);
-    }
-    50% {
-        transform: rotate(-40deg);
-      }
-    100% {
-      transform: rotate(40deg);
-    }
-  }
 .snowContainer{width: 100%; height: 800px; overflow: hidden; position: relative; z-index:-30;}
-    .snowExample{ position: absolute; top: -450px; opacity: .5; text-align: center;
+    .snowExample{ position: absolute; top: -450px; opacity: .8; text-align: center;
 animation: SnowExampleSlide ease-in infinite;
 -webkit-animation: SnowExampleSlide ease-in infinite;
 -moz-animation: SnowExampleSlide ease-in infinite;
