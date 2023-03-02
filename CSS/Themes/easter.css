@@ -9,7 +9,7 @@
       transform: rotate(40deg);
     }
   }
-.snowContainer{width: 100%; height: 800px; overflow: hidden; position: relative; }
+.snowContainer{width: 100%; height: 800px; overflow: hidden; position: relative; z-index:-30;}
     .snowExample{ position: absolute; top: -450px; opacity: .5; text-align: center;
 animation: SnowExampleSlide ease-in infinite;
 -webkit-animation: SnowExampleSlide ease-in infinite;
