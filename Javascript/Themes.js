@@ -29,4 +29,9 @@ function Start(){
         if(d.getMonth() == 6){
         document.getElementById("pyro").style.visibility="visable";
         }
+            //-------------------easter-------------------\\
+        if(d.getMonth() == 6){
+        document.getElementById("snowcontainer").style.visibility="visable";
+        }else{document.getElementById("snowcontainer").style.visibility="hidden";}
+
 }
