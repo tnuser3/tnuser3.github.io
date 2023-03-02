@@ -32,7 +32,7 @@ function Start(){
         document.getElementById("pyro").style.visibility="visable";
         }
             //-------------------easter-------------------\\
-        if(d.getMonth() == 3){
+        if(d.getMonth() == 2){
         document.getElementById("snowContainer").style.visibility="visable";
             
         }else{document.getElementById("snowContainer").style.visibility="hidden";}
