@@ -10,6 +10,7 @@ function Start(){
     //-------------------christmas-------------------\\
         if(d.getMonth() == 11){
             console.log("Happy Christmas ❄");
+            alert("Merry Christmas ❄");
             document.getElementById("snowflakes").style.visibility = "Visible";
         }else{
             console.log("not Christmas ):");
@@ -18,6 +19,7 @@ function Start(){
         //-------------------Holloween-------------------\\
         if(d.getMonth() == 9){
             console.log("Happy Halloween 🎃");
+             alert("Happy Halloween 🎃");
             document.getElementById("H").style.fontFamily="CustomFont";
             document.getElementById("H").style.color ="red";
             document.getElementById("Links").style.color ="red";
@@ -30,8 +32,9 @@ function Start(){
         document.getElementById("pyro").style.visibility="visable";
         }
             //-------------------easter-------------------\\
-        if(d.getMonth() == 6){
+        if(d.getMonth() == 3){
         document.getElementById("snowContainer").style.visibility="visable";
+            
         }else{document.getElementById("snowContainer").style.visibility="hidden";}
 
 }
