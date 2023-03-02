@@ -8,7 +8,7 @@ function Start(){
     const d = new Date();
     
     //-------------------christmas-------------------\\
-        if(d.getMonth() == 2){
+        if(d.getMonth() == 11){
             console.log("Happy Christmas ❄");
             document.getElementById("snowflakes").style.visibility = "Visible";
         }else{
@@ -16,7 +16,7 @@ function Start(){
             document.getElementById("snowflakes").style.visibility = "hidden";
         }
         //-------------------Holloween-------------------\\
-        if(d.getMonth() == 2){
+        if(d.getMonth() == 9){
             console.log("Happy Halloween 🎃");
             document.getElementById("H").style.fontFamily="CustomFont";
             document.getElementById("H").style.color ="red";
@@ -25,10 +25,8 @@ function Start(){
         }else{
             console.log("not Halloween ):");
         }
-                //-------------------4th of july-------------------\\
-                if(d.getMonth() == 2){
-                    document.getElementById("pyro").style.visibility="visable";
-                }else{
-                    document.getElementById("pyro").style.visibility="hidden";
-                }
+        //-------------------4th of july-------------------\\
+        if(d.getMonth() == 6){
+        document.getElementById("pyro").style.visibility="visable";
+        }
 }
