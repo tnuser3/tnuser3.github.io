@@ -1,4 +1,4 @@
-.snowContainer{width: 100%; height: 800px; overflow: hidden; position: relative; z-index:-30;}
+.snowContainer{width: 100%; height: 800px; overflow: hidden; position: relative; z-index:-0;}
     .snowExample{ position: absolute; top: -450px; opacity: .8; text-align: center;
 animation: SnowExampleSlide ease-in infinite;
 -webkit-animation: SnowExampleSlide ease-in infinite;
