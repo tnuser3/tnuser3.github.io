@@ -35,8 +35,8 @@ function Start(){
         }
             //-------------------easter-------------------\\
         if(d.getMonth() == 2){
-        document.getElementById("snowContainer").style.visibility="visable";
+        document.getElementById("flakes").style.visibility="visable";
             
-        }else{document.getElementById("snowContainer").style.visibility="hidden";}
+        }else{document.getElementById("flakes").style.visibility = "hidden";}
 
 }
