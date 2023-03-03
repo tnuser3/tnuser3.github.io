@@ -34,7 +34,7 @@ function Start(){
             document.getElementById("pyro").style.visibility="hidden";
         }
             //-------------------easter-------------------\\
-        if(d.getMonth() == 2){
+        if(d.getMonth() == 3){
         document.getElementById("flakes").style.visibility="visable";
             
         }else{document.getElementById("flakes").style.visibility = "hidden";}
